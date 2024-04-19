@@ -1,0 +1,30 @@
+.Nav {
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 30px rgba(253, 253, 253, 0.195);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+
+}
+
+.contNav {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 84px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.contLink {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+
+}
